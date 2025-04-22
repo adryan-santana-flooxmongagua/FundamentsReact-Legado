@@ -10,6 +10,7 @@ import CompCF from './components/CompCF'
 import Father from './components/Father'
 import CompSC from './components/CompSC'
 import Contador from './components/Cont'
+import Hook from './components/Hook'
 
 const elemento = document.getElementById('root')
 
@@ -27,5 +28,6 @@ ReactDOM.render(
         <Father/>
         <CompSC valor="Sou uno hombre programmer" />
         <Contador numeroInicial={0}/>
+        <Hook/>
     </div>, elemento)
 
