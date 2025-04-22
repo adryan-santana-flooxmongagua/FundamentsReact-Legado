@@ -26,6 +26,6 @@ ReactDOM.render(
         <CompCF/>
         <Father/>
         <CompSC valor="Sou uno hombre programmer" />
-        <Contador numero={0}/>
+        <Contador numeroInicial={0}/>
     </div>, elemento)
 
