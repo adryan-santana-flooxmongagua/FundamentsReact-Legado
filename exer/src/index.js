@@ -9,6 +9,7 @@ import Member from './components/Member'
 import CompCF from './components/CompCF'
 import Father from './components/Father'
 import CompSC from './components/CompSC'
+import Contador from './components/Cont'
 
 const elemento = document.getElementById('root')
 
@@ -25,5 +26,6 @@ ReactDOM.render(
         <CompCF/>
         <Father/>
         <CompSC valor="Sou uno hombre programmer" />
+        <Contador numero={0}/>
     </div>, elemento)
 
