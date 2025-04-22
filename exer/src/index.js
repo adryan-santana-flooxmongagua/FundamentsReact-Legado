@@ -6,6 +6,7 @@ import Mult from './components/Mult'
 import FamilySS from './components/FamilySS'
 import Family from './components/family'
 import Member from './components/Member'
+import CompCF from './components/CompCF'
 
 const elemento = document.getElementById('root')
 
@@ -19,5 +20,6 @@ ReactDOM.render(
         <Family sobrenome="SLopez">
             <Member nome="Ander" />
         </Family>
+        <CompCF/>
     </div>, elemento)
 
