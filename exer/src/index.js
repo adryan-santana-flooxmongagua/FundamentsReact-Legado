@@ -7,6 +7,7 @@ import FamilySS from './components/FamilySS'
 import Family from './components/family'
 import Member from './components/Member'
 import CompCF from './components/CompCF'
+import Father from './components/Father'
 
 const elemento = document.getElementById('root')
 
@@ -21,5 +22,6 @@ ReactDOM.render(
             <Member nome="Ander" />
         </Family>
         <CompCF/>
+        <Father/>
     </div>, elemento)
 
