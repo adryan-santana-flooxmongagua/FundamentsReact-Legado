@@ -4,6 +4,8 @@ import FirstComp from './components/FirstComp'
 import { CompA, CompB as B } from './components/Two'
 import Mult from './components/Mult'
 import FamilySS from './components/FamilySS'
+import Family from './components/family'
+import Member from './components/Member'
 
 const elemento = document.getElementById('root')
 
@@ -14,4 +16,8 @@ ReactDOM.render(
         <B valor="BSD"/>
         <Mult />
         <FamilySS/>
+        <Family sobrenome="SLopez">
+            <Member nome="Ander" />
+        </Family>
     </div>, elemento)
+
