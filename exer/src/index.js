@@ -8,6 +8,7 @@ import Family from './components/family'
 import Member from './components/Member'
 import CompCF from './components/CompCF'
 import Father from './components/Father'
+import CompSC from './components/CompSC'
 
 const elemento = document.getElementById('root')
 
@@ -23,5 +24,6 @@ ReactDOM.render(
         </Family>
         <CompCF/>
         <Father/>
+        <CompSC valor="Sou uno hombre programmer" />
     </div>, elemento)
 
